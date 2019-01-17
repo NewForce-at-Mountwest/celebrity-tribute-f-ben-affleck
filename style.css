@@ -13,3 +13,138 @@ justify-content: space-around;
     display:flex;
     flex-direction:column;
 }
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+ul li{
+    list-style-type: none;
+    align-content: center;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}
+
+.navbar-jen{
+    background-color: aqua;
+    padding-top: 2rem;    
+}
+
+.news-div {
+    border: 1px solid black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    display: block;
+    margin: auto;
+}
+
+.news-image {
+    width: 75%;
+    height: 75%;
+    object-fit: scale-down;
+}
+
+.article-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.news-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.news-post-content {
+    padding: 2rem;
+    border-bottom: 1px solid black;
+}
+
+.Career-H2{
+    font-style:italic;
+}
+
+.Career-column {
+    float: left;
+    width: 50%;
+}
+  
+  /* Clear floats after the columns */
+.Career-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Career-Img{
+    display:block;
+    width: 60%;
+    height: 60%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:1.5em;
+}
+
+footer{
+    text-align: center;
+}
+
+.photo img{
+        display: block;
+        width: 50%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.alias h2{
+    text-align:   center;
+}
+
+.collab{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.collab ul{
+    list-style-type: none;
+}
+
+.location h3{
+    text-align: center;
+}
+
+.location img{
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+footer a{
+    padding: 2rem;
+
+}
