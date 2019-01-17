@@ -2,6 +2,10 @@ nav ul{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+}
+
+ul li{
+    list-style-type: none;
     align-content: center;
 }
 
@@ -14,7 +18,35 @@ ul a{
 .navbar-jen{
     background-color: aqua;
     padding-top: 2rem;
+}
 
+.Career-H2{
+    font-style:italic;
+}
+
+.Career-column {
+    float: left;
+    width: 50%;
+}
+  
+  /* Clear floats after the columns */
+.Career-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Career-Img{
+    display:block;
+    width: 60%;
+    height: 60%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:1.5em;
+}
+
+footer{
+    text-align: center;
 }
 
 .photo img{
@@ -23,8 +55,6 @@ ul a{
         height: auto;
         margin-left: auto;
         margin-right: auto;
-
-
 }
 
 .alias h2{
@@ -39,17 +69,11 @@ ul a{
 
 .collab ul{
     list-style-type: none;
-
 }
-
-
-
-
 
 .location h3{
     text-align: center;
 }
-
 
 .location img{
     display: block;
@@ -65,10 +89,6 @@ footer{
     justify-content: center;
 }
 
-
-
 footer a{
     padding: 2rem;
-
-
 }
