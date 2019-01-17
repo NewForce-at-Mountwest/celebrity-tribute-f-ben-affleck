@@ -1,5 +1,13 @@
 nav ul{
     display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
     justify-content: space-between;
     list-style-type: none;
 }
@@ -17,7 +25,39 @@ ul a{
 
 .navbar-jen{
     background-color: aqua;
-    padding-top: 2rem;
+    padding-top: 2rem;    
+}
+
+.news-div {
+    border: 1px solid black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    display: block;
+    margin: auto;
+}
+
+.news-image {
+    width: 75%;
+    height: 75%;
+    object-fit: scale-down;
+}
+
+.article-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.news-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.news-post-content {
+    padding: 2rem;
+    border-bottom: 1px solid black;
 }
 
 .Career-H2{
