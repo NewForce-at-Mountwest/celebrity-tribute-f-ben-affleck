@@ -1,4 +1,81 @@
 
+
+.sad-affleck a{
+    text-decoration: none;
+    color: black;
+}
+
+.alias-photo{
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parent-photo{
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.affleck-photo{
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sibling-photo{
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.personal-h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+.personal-h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+.personal-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal-li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.personal-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    display: block;
+}
 .extras-row {
     display:flex;
     flex-direction:row;
@@ -12,6 +89,7 @@ justify-content: space-around;
 .extras-column2{
     display:flex;
     flex-direction:column;
+
 }
 nav ul{
     display: flex;
@@ -138,6 +216,14 @@ footer{
     margin-right: auto;
 }
 
+.family-dates{
+    font-size: .8em;
+}
+
+li{
+    list-style-type: none;
+}
+
 footer{
     display: flex;
     align-content: center;
@@ -145,6 +231,5 @@ footer{
 }
 
 footer a{
-    padding: 2rem;
-
+    padding: 2em;
 }
