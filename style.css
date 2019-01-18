@@ -42,6 +42,7 @@
     justify-content: center;
     align-items: center;
     font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .personal-h3{
@@ -49,6 +50,7 @@
     justify-content: center;
     align-items: center;
     font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .personal-ul{
@@ -71,6 +73,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .img{
@@ -79,7 +82,7 @@
 .extras-row {
     display:flex;
     flex-direction:row;
-justify-content: space-around;
+    justify-content: space-around;
 }
 
 .extras-column1{
@@ -94,12 +97,14 @@ justify-content: space-around;
 nav ul{
     display: flex;
     justify-content: space-evenly;
+    padding-top: 0.5rem;
+    padding-bottom: -0.5rem;
     list-style-type: none;
 }
 
 ul a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: space-between;
     list-style-type: none;
@@ -119,17 +124,15 @@ ul li{
 }
 
 .navbar-jen{
-    background-color: aqua;
+    background-image: linear-gradient(black, gray);
+    box-shadow: 0 0.3em 0.3em 0;
+    background-color: black;
     max-width: 100%;
-    padding-top: 0.1rem;
-    padding-right: 1rem;
-    padding-bottom: 0.1rem;
-    padding-left: 0;
-
 }
 
 .news-div {
     border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 80%;
@@ -163,7 +166,7 @@ ul li{
 .Career-H2{
     font-style:italic;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .Career-Intro > p{
@@ -206,12 +209,14 @@ footer{
 
 .alias h2{
     text-align:   center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .collab{
     display: flex;
     align-content: center;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .collab ul{
@@ -220,6 +225,7 @@ footer{
 
 .location h3{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .location img{
@@ -232,6 +238,7 @@ footer{
 
 .family-dates{
     font-size: .8em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 li{
@@ -242,6 +249,7 @@ li{
 
 h1, h2 {
     text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .navbar-jen ul a {
@@ -258,7 +266,8 @@ h1, h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 150%;
     text-transform: uppercase;
-}
+    line-height: 1rem;
+    vertical-align: middle;
 
 footer{
     display: flex;
