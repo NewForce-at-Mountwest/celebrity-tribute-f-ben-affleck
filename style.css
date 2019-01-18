@@ -130,6 +130,7 @@ ul li{
     max-width: 100%;
 }
 
+/* div & shadow */
 .news-div {
     border: 1px solid black;
     box-shadow: 2px 2px 2px 2px;
