@@ -119,11 +119,6 @@ ul li{
 }
 
 .navbar-jen{
-<<<<<<< HEAD
-    background-color: black;
-    padding-top: 2rem;  
-    opacity: .6;  
-=======
     background-color: aqua;
     max-width: 100%;
     padding-top: 0.1rem;
@@ -131,7 +126,6 @@ ul li{
     padding-bottom: 0.1rem;
     padding-left: 0;
 
->>>>>>> master
 }
 
 .news-div {
