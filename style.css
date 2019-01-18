@@ -108,9 +108,11 @@ ul a{
 ul li{
     list-style-type: none;
     align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1rem;
 }
 
-ul a{
+.career_H2.ul a{
     text-decoration: none;
     color: black;
     font-size: 2rem;
@@ -155,6 +157,11 @@ ul a{
 
 .Career-H2{
     font-style:italic;
+}
+
+.Career-Intro > p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:2.5em;
 }
 
 .Career-column {
